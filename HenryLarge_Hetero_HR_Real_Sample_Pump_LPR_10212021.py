@@ -46,7 +46,7 @@ henry_botm = np.linspace(henry_top - delv, 0., nlay)
 qinflow = 5.702*100*2#m3/day 5.702
 dmcoef = 1.62925#1.62925#0.57024 #m2/day  Could also try 1.62925 as another case of the Henry problem
 #hk_init = np.load('hk_init864_0p5_5reals.npy')
-hk_init = np.load('hk_init86p4_0p5_5range_10reals.npy')
+hk_init = np.load('hk_init86p4_0p5_5range_10reals_new.npy')
 
 
 hk = np.zeros((nlay,nrow,ncol))
